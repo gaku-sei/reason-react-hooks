@@ -1,0 +1,10 @@
+.cache
+.DS_Store
+.merlin
+.bsb.lock
+.vscode
+npm-debug.log
+/dist
+/lib/bs/
+/node_modules/
+src/**/*.bs.js

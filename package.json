@@ -1,0 +1,22 @@
+{
+  "name": "my-movies",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "install": "cp node_modules/bs-platform/lib/reactjs_jsx_ppx_3.darwin node_modules/bs-platform/lib/reactjs_jsx_ppx_3.exe"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-fetch": "^0.3.1",
+    "bs-platform": "^6.0.0-dev.1",
+    "bsb-js": "^1.1.7",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "reason-react": "reasonml/reason-react"
+  }
+}

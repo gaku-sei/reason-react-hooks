@@ -1,0 +1,20 @@
+{
+  "name": "my-movies",
+  "version": "0.1.0",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": ["bs-fetch", "reason-react"],
+  "warnings": {
+    "error": "+8+101"
+  },
+  "namespace": true,
+  "reason": { "react-jsx": 3 },
+  "refmt": 3
+}
